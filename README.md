@@ -11,3 +11,9 @@ To start node backend. Port 8080
 npm run serverexpress
 ```
 
+To run angular
+
+```sh
+npm run angular
+```
+

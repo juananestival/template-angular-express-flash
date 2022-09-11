@@ -7,7 +7,8 @@
   "scripts": {
     "start": "node backend/express/server.js",
     "serverexpress": "nodemon backend/express/server.js",
-    "serverflask":"python backend/flask/app.py"
+    "serverflask":"python backend/flask/app.py",
+    "angular":"npm start --prefix frontend"
   },
   "author": "Juan Antonio Estival",
   "license": "MIT",
