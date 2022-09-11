@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "start": "node backend/express/server.js",
-    "servernode": "nodemon backend/express/server.js",
+    "serverexpress": "nodemon backend/express/server.js",
     "serverflask":"python backend/flask/app.py"
   },
   "author": "Juan Antonio Estival",

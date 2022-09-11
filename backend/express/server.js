@@ -6,7 +6,7 @@ import bodyParser from "body-parser";
 
 //config
 dotenv.config();
-const PORT = process.env.PORT || 8000;
+const PORT = process.env.PORTNODE || 8080;
 const app = express();
 
 // To be able to see the request. Otherwise it will be empty brackets

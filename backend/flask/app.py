@@ -5,7 +5,7 @@ from flask import Flask, request, jsonify
 from dotenv import load_dotenv
 
 load_dotenv()
-PORT = os.getenv("PORT")
+PORTFLASK = os.getenv("PORTFLASK")
 app = Flask(__name__)
 @app.route('/api/sample', methods=['GET', 'POST'])
 def collection():
@@ -24,6 +24,6 @@ def collection():
 
 if __name__ == '__main__':
     app.debug = True
-    app.run(port=PORT)
+    app.run(port=PORTFLASK)
 
 # helper functions
